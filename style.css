@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Unbounded', sans-serif;
+    background-color: #e8f1ff;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, #8DB4FF 0%, #a8c9ff 50%, #c2dbff 100%);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section h2 {
+    color: #6a9fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 1.2em;
+}
+
+.hobby-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border: 2px solid #8DB4FF;
+    border-radius: 20px;
+    padding: 30px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(141, 180, 255, 0.3);
+}
+
+.emoji {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #8DB4FF;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.photo-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.photo {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #8DB4FF;
+    transition: transform 0.3s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+.contacts {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background: #8DB4FF;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #6a9fff;
+    transform: scale(1.05);
+}
+
+footer {
+    background: #8DB4FF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
